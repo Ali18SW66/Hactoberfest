@@ -1,12 +1,15 @@
 Q1:How to print the data on console?
 Ans: using System.out.println("data");
+     we can also use System.out.print("data");
+     system.out.printf();  //for formated data
 
 Q2:What is Class in Java?
-Ans: Blueprint of object.
+Ans: Blueprint of an object.
 
 Q3:If We have a class named as Work with default constructor then how we will 
     create the object?
 Ans: Work w = new Work();
+new Work(); creates the object Work w create a reference or pointer to the object.
 
 Q4:What is Objects in Java?
 Ans: instance of class.
@@ -14,13 +17,21 @@ Ans: instance of class.
 Q5: Create an Integer Variable ?
 Ans: int idk_man;
 
+
 Q6: Write any String class function down here?
 Ans: String s = "Hey"; 
           s.charAt(1);
+Ans: s.toUpperCase();
 
 Q7: How many classes we can extends in java?
 Ans:  1
 
+Q8: Java doesn't support multiple inheritance right? Every class extends the Object class by default right?
+    when we are extending a class then in reality a class is extending two classes i.e object and the one
+    we mention after extends keyword so this is multiple inheritance explain?
+	Example we have created class A which will extend Object since every user defined class does it.
+	we created another class B which will for sure extend Object. so now if i write class B extends A
+	it will extend two classes Object and A explain it
 
 Class Test{
  public static void main(String[] args){
